@@ -3,14 +3,20 @@
 	text-align: center;
 }
 
+/* General Styling */
+
 .container {
 	margin: 0 auto;
 	width: 50%;
 }
 
+/* Header */
+
 header {
 	margin: 2em;
 }
+
+/* Navigation */
 
 .nav-items {
 	padding: 0;
@@ -27,6 +33,13 @@ header {
 	color: #cd5555;
 }
 
+.active {
+	background-color: #cd5555;
+	color: white;
+}
+
+/* Countdown Timer */
+
 .countdown-container {
 	margin: 2em auto;
 	padding: 1em 0;
@@ -34,6 +47,8 @@ header {
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	border-radius: 25px;
 }
+
+/* Mobile View */
 
 @media (max-width: 480px) {
 	.countdown-container {
@@ -56,6 +71,8 @@ header {
 		text-decoration: none;
 	}
 }
+
+/* Tablet View */
 
 @media (min-width: 480px) and (max-width: 768px) {
 	.container {
