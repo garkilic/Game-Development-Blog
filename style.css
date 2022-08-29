@@ -48,6 +48,16 @@ header {
 	border-radius: 25px;
 }
 
+/* Contact */ 
+
+.contact {
+	display: flex;
+}
+
+.contact i {
+	margin: 0 1em;
+}
+
 /* Mobile View */
 
 @media (max-width: 480px) {
