@@ -31,11 +31,11 @@ header {
 
 .nav-item a {
 	color: #cd5555;
+	text-decoration: none;
 }
 
 .active {
-	background-color: #cd5555;
-	color: white;
+text-decoration: underline;	
 }
 
 /* Countdown Timer */
