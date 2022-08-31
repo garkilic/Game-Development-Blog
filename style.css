@@ -75,6 +75,13 @@ text-decoration: underline;
 	text-align: left;
 }
 
+/* About Me */
+
+.about p {
+	margin: 0 auto;
+	width: 50%;
+}
+
 /* Mobile View */
 
 @media (max-width: 480px) {
