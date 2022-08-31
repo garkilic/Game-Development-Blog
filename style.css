@@ -1,6 +1,5 @@
 * {
 	font-family: "Roboto Slab", serif;
-	text-align: center;
 }
 
 /* General Styling */
@@ -14,6 +13,7 @@
 
 header {
 	margin: 2em;
+	text-align: center;
 }
 
 /* Navigation */
@@ -41,6 +41,7 @@ header {
 /* Countdown Timer */
 
 .countdown-container {
+	text-align: center;
 	margin: 2em auto;
 	padding: 1em 0;
 	width: 50%;
@@ -48,14 +49,30 @@ header {
 	border-radius: 25px;
 }
 
-/* Contact */ 
+/* Explanation */
+
+.explanation {
+	text-align: center;
+}
+
+/* Contact */
 
 .contact {
 	display: flex;
+	justify-content: center;
 }
 
-.contact i {
+.contact a {
 	margin: 0 1em;
+}
+
+/* Blog Posts */
+
+.blog-post {
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	padding: 2rem;
+	margin: 2rem;
+	text-align: left;
 }
 
 /* Mobile View */
