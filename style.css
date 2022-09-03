@@ -9,6 +9,10 @@
 	width: 50%;
 }
 
+a {
+	color: #cd5555;
+}
+
 /* Header */
 
 header {
@@ -35,7 +39,7 @@ header {
 }
 
 .active {
-text-decoration: underline;	
+	text-decoration: underline;
 }
 
 /* Countdown Timer */
@@ -59,10 +63,11 @@ text-decoration: underline;
 
 .contact {
 	margin: 1em 0;
+	text-align: center;
 }
 
 .contact a {
-	margin: 0 1em;
+	margin: 1em;
 }
 
 /* Blog Posts */
@@ -84,8 +89,14 @@ text-decoration: underline;
 
 .progress {
 	text-align: center;
+	padding: 2em 0;
 }
 
+/* Portfolio */
+
+.portfolio {
+	text-align: center;
+}
 /* Mobile View */
 
 @media (max-width: 480px) {
