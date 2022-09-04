@@ -1,5 +1,5 @@
 // Setting date that is being countdown to
-var countDownDate = new Date("Sept 1, 2023 12:00:00").getTime();
+var countDownDate = new Date("Sept 5, 2023 12:00:00").getTime();
 // Rate at which the countdown is updated (1 Second)
 var countdownTotal = setInterval(function () {
 	// Getting todays date and time

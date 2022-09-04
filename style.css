@@ -9,7 +9,7 @@
 	width: 50%;
 }
 
-a {
+.link {
 	color: #cd5555;
 }
 
@@ -68,6 +68,7 @@ header {
 
 .contact a {
 	margin: 1em;
+	color: #cd5555;
 }
 
 /* Blog Posts */
@@ -115,9 +116,13 @@ header {
 		border-radius: 25px;
 		padding: 0.5rem;
 		width: 70%;
+		text-align: center;
 	}
 	.nav-item a {
 		text-decoration: none;
+	}
+	.blog-post {
+		text-align: center;
 	}
 }
 
