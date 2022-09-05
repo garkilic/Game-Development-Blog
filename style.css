@@ -2,6 +2,10 @@
 	font-family: "Roboto Slab", serif;
 }
 
+body {
+	background-color: #f2f2f2;
+}
+
 /* General Styling */
 
 .container {
@@ -10,7 +14,7 @@
 }
 
 .link {
-	color: #cd5555;
+	color: #5ea758;
 }
 
 /* Header */
@@ -34,8 +38,9 @@ header {
 }
 
 .nav-item a {
-	color: #cd5555;
+	color: #5ea758;
 	text-decoration: none;
+	display: block;
 }
 
 .active {
@@ -62,13 +67,17 @@ header {
 /* Contact */
 
 .contact {
-	margin: 1em 0;
 	text-align: center;
+}
+
+.contact-links {
+	display: flex;
+	justify-content: center;
 }
 
 .contact a {
 	margin: 1em;
-	color: #cd5555;
+	color: #5ea758;
 }
 
 /* Blog Posts */
@@ -97,6 +106,10 @@ header {
 
 .portfolio {
 	text-align: center;
+}
+
+.portfolio h2 {
+	margin: 100px 0;
 }
 /* Mobile View */
 
