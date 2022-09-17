@@ -58,6 +58,8 @@ header {
 
 .explanation {
 	text-align: center;
+
+	padding: 1em;
 }
 
 /* Contact */
@@ -98,6 +100,10 @@ header {
 	padding: 2em 0;
 }
 
+.progress a {
+	color: #5ea758;
+}
+
 /* Portfolio */
 
 .portfolio {
@@ -107,6 +113,25 @@ header {
 .portfolio h2 {
 	margin: 100px 0;
 }
+
+/* Tools */
+
+.tools {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tool {
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	text-align: center;
+	margin: 0 1em;
+	padding: 1em;
+}
+
+.tool a {
+	color: #5ea758;
+}
+
 /* Mobile View */
 
 @media (max-width: 480px) {
@@ -132,6 +157,11 @@ header {
 	}
 	.blog-post {
 		text-align: center;
+	}
+	.tools {
+		display: flex;
+		flex-direction: column;
+		margin: 2rem;
 	}
 }
 
