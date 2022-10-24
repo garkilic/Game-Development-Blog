@@ -13,6 +13,11 @@
 	color: #5ea758;
 }
 
+.recent-post {
+	padding: 2em 0;
+	text-align: center;
+}
+
 /* Header */
 
 header {
@@ -174,6 +179,8 @@ header {
 		margin: 1rem 0;
 	}
 }
+
+/* Resources */
 
 /* Tablet View */
 
